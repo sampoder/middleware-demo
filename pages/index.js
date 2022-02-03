@@ -12,7 +12,7 @@ export default function Home() {
         {routes.map((route) => (
           <li key={route.slug}>
             <a href={route.destination}>
-              /{route.slug}
+              {route.slug}
             </a>
           </li>
         ))}
