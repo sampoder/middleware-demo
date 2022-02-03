@@ -10,9 +10,9 @@ export default function Home() {
       <h1>Available Routes</h1>
       <ul>
         {routes.map((route) => (
-          <li>
+          <li key={route.slug}>
             <a href={route.destination}>
-              /{route.slug}
+              {route.slug}
             </a>
           </li>
         ))}
