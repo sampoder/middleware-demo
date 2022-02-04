@@ -1,3 +1,3 @@
-export default [
-  {slug: 'sampoder', destination: 'https://sampoder.com'}
-]
+export default {
+  '/sampoder': 'https://sampoder.com'
+}
