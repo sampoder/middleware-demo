@@ -1,3 +1,3 @@
 export default {
-  '/sampoder': 'https://sampoder.com'
+  '/smashing': 'https://smashingmagazine.com'
 }
